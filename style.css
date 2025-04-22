@@ -1,0 +1,177 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+
+    margin: 0;
+
+    background-color: #ffffff;
+
+    color: #2c3e50;
+
+}
+
+
+
+header {
+
+    background-color: #0b4f6c;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 2rem 1rem;
+
+}
+
+
+
+header img {
+
+    width: 120px;
+
+    height: 120px;
+
+    border-radius: 50%;
+
+    margin-bottom: 1rem;
+
+}
+
+
+
+header h1 {
+
+    font-family: 'Merriweather', serif;
+
+    margin: 0;
+
+    font-size: 2.5rem;
+
+}
+
+
+
+header nav {
+
+    margin-top: 1rem;
+
+}
+
+
+
+header nav a {
+
+    color: #ffffff;
+
+    margin: 0 15px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+
+
+header nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+.section {
+
+    padding: 2rem;
+
+    border-bottom: 1px solid #e1e1e1;
+
+}
+
+
+
+.section h2 {
+
+    font-family: 'Merriweather', serif;
+
+    border-left: 5px solid #0b4f6c;
+
+    padding-left: 10px;
+
+    color: #0b4f6c;
+
+}
+
+
+
+ul.skills {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+
+
+ul.skills li {
+
+    background-color: #d9ecf2;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 20px;
+
+    font-size: 0.95rem;
+
+}
+
+
+
+button {
+
+    padding: 0.7rem 1.2rem;
+
+    font-size: 1rem;
+
+    color: white;
+
+    background-color: #0b4f6c;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background-color: #083c4f;
+
+}
+
+
+
+footer {
+
+    text-align: center;
+
+    background-color: #f3f3f3;
+
+    padding: 1rem;
+
+    font-size: 0.9rem;
+
+}
